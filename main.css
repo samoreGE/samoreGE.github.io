@@ -4,3 +4,8 @@ body {
 	text-align: center;
 	width: 100%;
 }
+
+header .row,
+footer .row {
+  display: flex;
+}

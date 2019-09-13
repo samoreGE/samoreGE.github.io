@@ -1,6 +1,7 @@
 body {
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
+  background-color:#F57B20;
 }
 
 header {
@@ -22,6 +23,7 @@ footer .row {
 header h1 {
   font-weight: 700;
   font-size: 50px;
+  padding: 0 0 20px;
   margin: 0;
 }
 
@@ -59,7 +61,22 @@ section .pros-cons ul{
 	font-weight: 500;
 }
 
-section .pros-cons li{	
+section .pros-cons li{
+	max-width:350px;
 	background-color: #050707;
 	margin: 50px 40px 0;
-}	
+}
+
+.join-crowd {
+	background-image: url('old-school-tennis-crowd.jpg');
+	background-size: cover;
+	max-width: 700px;
+	min-height: 400px;
+	margin: 40px auto;
+	
+}
+
+section .join-crowd button{
+	font-size: 30px;
+	margin:70px auto;
+}

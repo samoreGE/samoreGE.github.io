@@ -9,3 +9,8 @@ header .row,
 footer .row {
   display: flex;
 }
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}

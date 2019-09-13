@@ -39,9 +39,15 @@ section .row img {
 }	
 
 .honey-upsides {
-	background-image: honey.jpg;
+	background-image: url('https://samorege.github.io/honey.jpg');
 	background-size: cover;
 }
+
+.honey-upsides {
+	background-image: url('https://samorege.github.io/tennis-ball.jpg');
+	background-size: cover;
+}
+
 section .row ul{
 	color: blue;
 }

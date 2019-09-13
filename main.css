@@ -1,10 +1,16 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 300;
 }
 
 header {
   padding: 20px 0;
+}
+
+header .pros-cons,
+footer .pros-cons {
+  display: flex;
+  align-items: center;
 }
 
 header .row,
@@ -19,11 +25,6 @@ header h1 {
   margin: 0;
 }
 
-header nav {
-  display: flex;
-  justify-content: flex-end;
-}
-
 header p {
   padding: 0 20px;
   margin: 0;
@@ -34,28 +35,31 @@ header p {
   margin: 0 0 30px;
 }	
 
+	
 .honey-upsides {
-	color: white;
+	color: #EFE3C6;	
 	background-image: url('https://samorege.github.io/honey.jpg');
 	background-size: cover;
 }
 
 .tennis-downsides {
-	color: white;
+	color: #EFE3C6;
 	background-image: url('https://samorege.github.io/tennis-ball.jpg');
 	background-size: cover;
 }
 
-section .row{
+section .pros-cons{
 	width: 100%;
 }
 
-section .row ul{	
+section .pros-cons ul{	
 	margin: 50px 10px 0;
 	min-height: 300px;
 	font-size: 20px;
+	font-weight: 500;
 }
 
-section .row li{	
+section .pros-cons li{	
+	background-color: #050707;
 	margin: 50px 40px 0;
 }	

@@ -39,7 +39,7 @@ section .row img {
 }	
 
 .honey-upsides {
-	background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/jumbotron.jpg');
+	background-image: honey.jpg;
 	background-size: cover;
 }
 section .row ul{

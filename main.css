@@ -21,7 +21,7 @@ header h1 {
 header nav {
   display: flex;
   justify-content: flex-end;
-  font-weight: 150;
+  font-weight: 300;
 }
 
 header p {
